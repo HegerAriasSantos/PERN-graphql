@@ -7,5 +7,6 @@ const pool = new Pool({
 	port: "5432",
 	database: "Practice",
 });
+
 pool.connect();
 export default pool;
